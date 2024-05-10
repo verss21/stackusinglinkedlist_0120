@@ -54,6 +54,10 @@ public:
 				cout << current->data << " " << endl;
 				current = current->next;
 			}
+			cout << endl;
 		}
 	}
+
+	//isEmpty operation: check if the stack is empty
+	bool isEmpty() {}
 };
