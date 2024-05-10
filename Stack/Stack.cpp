@@ -91,13 +91,27 @@ int main() {
 			}
 			else {
 				cout << "Stack is empty. Cannot pop." << endl;
-				}
+			}
 			break;
 		case 3:
 			if (!stack.isEmpty()) {
 				stack.peek(); // get the value of the top element
-				}
+			}
 			else {
 				cout << "Stack is empty. No top value." << endl;
 			}
 			break;
+
+		case 4:
+			cout << "Exiting program." << endl;
+			break;
+		default:
+			cout << "Invalid choice. Try again." << endl;
+			break;
+		}
+
+		cout << endl;
+	}
+
+	return 0;
+}
