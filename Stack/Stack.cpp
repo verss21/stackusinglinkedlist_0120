@@ -88,10 +88,16 @@ int main() {
 		case 2:
 			if (!stack.isEmpty()) {
 				stack.pop(); //pop the element from the stack
-		}
+			}
 			else {
 				cout << "Stack is empty. Cannot pop." << endl;
-	}
+				}
 			break;
-
-}
+		case 3:
+			if (!stack.isEmpty()) {
+				stack.peek(); // get the value of the top element
+				}
+			else {
+				cout << "Stack is empty. No top value." << endl;
+			}
+			break;
