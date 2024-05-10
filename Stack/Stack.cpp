@@ -84,6 +84,7 @@ int main() {
 			cout << "Enter the value to push: ";
 			cin >> value;
 			stack.push(value); //push the entered value onto the stack
+			break;
 		}
 	}
 }
