@@ -16,4 +16,10 @@ public:
 //stack class
 class Stack {
 private:
+	Node* top; ///pointer to the top node of stack
+
+public:
+	Stack() {
+		top = NULL;
+	}
 };
